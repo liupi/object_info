@@ -11,7 +11,7 @@ public class Main {
         //we call the sell() method
         car.sell(2);
 
-        //print all fields (using the previously declared „ methods of the object field)
+        //print all fields (using the previously declared "get" methods of the object field)
         System.out.println("Car " + " {model: " + car.getModel() +
                 ", brand: " + car.getBrand() + ", year: " +
                 car.getYear() + ", price: " + car.getPrice() +
