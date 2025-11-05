@@ -66,7 +66,7 @@ public class Car {
     }
 
     public void delivery(int quantity) {
-        this.quantity +=  quantity;
+        this.quantity += quantity;
     }
 
     public void sell(int quantity) {
@@ -76,10 +76,12 @@ public class Car {
             this.quantity = quantity;
         }
     }
+
     @Override
     public String toString() {
-        return "Car " + " {model " + getModel() +
-                "\nbrand " + getBrand() + "\nyear " +
-                getYear() + "\nprice " + getPrice() + "}";
+        return "Car " + " {model: " + getModel() +
+                ", brand: " + getBrand() + ", year: " +
+                getYear() + ", price: " + getPrice() +
+                ", color: " + getColor() + ", quantity: " + getQuantity() + "}";
     }
 }
