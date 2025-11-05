@@ -73,7 +73,7 @@ public class Car {
         if (quantity > this.quantity) {
             throw new IllegalArgumentException("The quantity is greater than amount of cars!");
         } else {
-            this.quantity = quantity;
+            this.quantity -= quantity;
         }
     }
 
