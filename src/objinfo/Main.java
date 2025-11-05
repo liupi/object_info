@@ -2,10 +2,10 @@ package objinfo;
 
 public class Main {
     public static void main(String[] args) {
-        //create object of the Car class by using the constructor,
+        //create object of the Car class by using the constructor
         Car car = new Car("Leaf", "Nissan", 2020, 30500, "White", 10);
 
-        //call and print what the toString () method
+        //call and print what the toString () method passes
         System.out.println(car);
 
         //we call the sell() method
